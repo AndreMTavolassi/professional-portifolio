@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #fff;
+    background-color: #190f24;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12001e;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #a349cf;
+}
+
+.links-nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links-nav a:hover {
+    color: #a349cf;
+}
+
+section {
+    padding: 100px 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #12001e;
+}
+
+section:nth-child(odd) {
+    background-color: #1d0333;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #a349cf;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #d3c0e0;
+    max-width: 600px;
+}
+
+.andre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.andre-content {
+    max-width: 600px;
+}
+
+.andre-content h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.andre-content h2 {
+    color: #a349cf;
+}
+
+.andre-image img {
+    border-radius: 10px;
+    width: 400px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #a349cf;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #a349cf;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2b1b38;
+}
+
+.social-links a {
+    color: #a349cf;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-links a:hover {
+    color: #fff;
+}
